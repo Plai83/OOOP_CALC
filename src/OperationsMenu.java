@@ -11,6 +11,7 @@ public class OperationsMenu {
             System.out.println("'-' Вычитание");
             System.out.println("'*' Умножение");
             System.out.println("'/' Деление");
+            System.out.println("'Q' Деление");
             System.out.println("-------");
             String operation = scanner.next().toLowerCase();
             if (strOperations.contains(operation)){
