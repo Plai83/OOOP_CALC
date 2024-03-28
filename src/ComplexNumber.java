@@ -1,6 +1,6 @@
-public class ComplexNumber {
-    private double real;
-    private double imaginary;
+public class ComplexNumber extends Number {
+    private final double real;
+    private final double imaginary;
 
     public ComplexNumber(double real, double imaginary) {
         this.real = real;
